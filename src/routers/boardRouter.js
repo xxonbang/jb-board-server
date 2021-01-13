@@ -1,29 +1,61 @@
 import express from "express";
-import routes from "../routes";
+import routes from "../routes.js";
 import {
-  getUpload,
-  postUpload,
-  videoDetail,
-  getEditVideo,
-  postEditVideo,
-  deleteVideo
-} from "../controllers/boardController";
-import { uploadVideo, onlyPrivate } from "../middlewares";
+  search,
+  postUpload
+} from "../controllers/postController.js";
 
 const boardRouter = express.Router();
 
+// HUMOR BOARD
+// Search
+// boardRouter.get(`/humor` + `/search`, search)
+
+// boardRouter.get(routes.boardClassification(), search)
+
+// boardRouter.get(`${routes.boardClassification()}/search`, search)
+boardRouter.get('/humor/search', search)
 // Upload
-boardRouter.get(routes.upload, onlyPrivate, getUpload);
-boardRouter.post(routes.upload, onlyPrivate, uploadVideo, postUpload);
+boardRouter.post(`/humor/upload`, postUpload);
 
-// Video Detail
-boardRouter.get(routes.videoDetail(), videoDetail);
+// SOCIETY BOARD
+// Search
+// Upload
 
-// Edit Video
-boardRouter.get(routes.editVideo(), onlyPrivate, getEditVideo);
-boardRouter.post(routes.editVideo(), onlyPrivate, postEditVideo);
-
-// Delete Video
-boardRouter.get(routes.deleteVideo(), onlyPrivate, deleteVideo);
 
 export default boardRouter;
+
+
+
+
+// import express from "express";
+// import routes from "../routes";
+// import {
+//   search,
+//   postUpload
+// } from "../controllers/postController.js";
+//
+// const postRouter = express.Router();
+//
+// // Search
+//
+// // Upload
+// postRouter.post(routes.upload, postUpload);
+//
+// export default postRouter;
+
+
+
+// // Upload
+// boardRouter.get(routes.upload, onlyPrivate, getUpload);
+// boardRouter.post(routes.upload, onlyPrivate, uploadVideo, postUpload);
+//
+// // Video Detail
+// boardRouter.get(routes.videoDetail(), videoDetail);
+//
+// // Edit Video
+// boardRouter.get(routes.editVideo(), onlyPrivate, getEditVideo);
+// boardRouter.post(routes.editVideo(), onlyPrivate, postEditVideo);
+//
+// // Delete Video
+// boardRouter.get(routes.deleteVideo(), onlyPrivate, deleteVideo);

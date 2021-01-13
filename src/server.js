@@ -7,6 +7,7 @@ import bodyParser from "body-parser";  // client 의 post, put request 의 body 
 import routes from "./routes.js";
 import globalRouter from "./routers/globalRouter.js";
 import userRouter from "./routers/userRouter.js";
+import boardRouter from "./routers/boardRouter.js";
 
 const app = express();
 
@@ -17,6 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(routes.home, globalRouter);
 app.use(routes.users, userRouter);
+app.use(routes.board, boardRouter);
 
 export default app;
 
