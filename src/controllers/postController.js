@@ -1,12 +1,16 @@
 import Post from "../model/post.js";
 
 export const search = async (req, res) => {
-  // Post.findById(req.params.postNo)
-  //   .then((post) => res.json(post))
-  //   .catch((err) => res.status(400).json("ERROR: " + err));
+  await Post.find({postNo: req.query.postNo})
+    .then((post) => res.json(post))
+    .catch((err) => res.status(400).json("ERROR: " + err));
+}
 
-
-  res.send('this is humor search!!')
+export const searchAll = async (req, res) => {
+  await Post.find({boardCate: req.params.category})
+    .then((post) => res.send(post))
+    // .then((post) => res.json(post))
+    .catch((err) => res.status(400).json("ERROR: " + err));
 }
 
 export const postUpload = async (req, res) => {

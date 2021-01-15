@@ -2,21 +2,24 @@ import express from "express";
 import routes from "../routes.js";
 import {
   search,
+  searchAll,
   postUpload
 } from "../controllers/postController.js";
 
 const boardRouter = express.Router();
 
+
 // HUMOR BOARD
 // Search
+boardRouter.get('/:category/search', search)
 // boardRouter.get(`/humor` + `/search`, search)
-
 // boardRouter.get(routes.boardClassification(), search)
-
 // boardRouter.get(`${routes.boardClassification()}/search`, search)
-boardRouter.get('/humor/search', search)
+// SearchAll
+boardRouter.get('/:category/searchAll', searchAll)
+// boardRouter.get('/humor/searchAll', searchAll)
 // Upload
-boardRouter.post(`/humor/upload`, postUpload);
+boardRouter.post(`/:category/upload`, postUpload);
 
 // SOCIETY BOARD
 // Search

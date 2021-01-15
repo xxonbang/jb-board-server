@@ -1,7 +1,6 @@
 // environment variables management & setting 모듈 (project root folder 내 .env 파일 생성)
 import dotenv from "dotenv";
 import app from "./server.js";
-import mongoose from "mongoose";
 import "./db.js";
 
 dotenv.config();

@@ -36,13 +36,7 @@ const routes = {
     login: LOGIN,
     logout: LOGOUT,
     users: USERS,
-    board: BOARD,
-    boardClassification: (id) => {
-        if (id) {
-            return `/humor/search`;
-        }
-    }
-
+    board: BOARD
 };
 
 export default routes;
