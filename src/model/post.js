@@ -6,7 +6,9 @@ const PostSchema = new mongoose.Schema({
   title: String,
   writer: String,
   contents: String,
-  comment: String
+  comment: String,
+  recommendCount: Number,
+  regTime: Date
 });
 
 const model = mongoose.model("Post", PostSchema);

@@ -2,82 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0be0e00c-4e72-4421-9935-fceed634e059" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../bangtube/BangTube/.idea/BangTube.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bangtube/BangTube/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bangtube/BangTube/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bangtube/BangTube/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bangtube/BangTube/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/.idea/hist-message.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/assets/images/carousel1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/assets/images/carousel2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/assets/images/carousel3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/assets/images/image1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/assets/images/image2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/assets/images/image3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/assets/images/image4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/assets/images/image5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/assets/images/sms.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/assets/scss/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/assets/scss/footer.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/assets/scss/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/assets/scss/header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/assets/scss/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/assets/scss/home.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/assets/scss/home.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/assets/scss/mixin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/assets/scss/mixin.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/assets/scss/mixin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/pages/home/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/parts/footer/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hist-message/src/parts/header/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jb-board/.eslintcache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jb-board/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jb-board/.idea/jb-board.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jb-board/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jb-board/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jb-board/src/pages/home/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jb-board/src/pages/home/cate-cards.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jb-board/src/pages/home/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jb-board/src/pages/home/mock-card-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-board/src/pages/home/cate-cards.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-board/src/pages/home/mock-card-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxonbang-gatsby/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxonbang-gatsby/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxonbang-gatsby/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxonbang-gatsby/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxonbang-gatsby/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxonbang-gatsby/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxonbang-gatsby/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxonbang-gatsby/.idea/xxonbang-gatsby.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxonbang-gatsby/content/blog/back-end/test1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxonbang-gatsby/content/blog/database/test1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxonbang-gatsby/content/blog/etc/test1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxonbang-gatsby/content/blog/javascript/test1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/postController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/postController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routers/boardRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routers/boardRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xxonbang.github.io/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../xxonbang.github.io/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xxonbang.github.io/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xxonbang.github.io/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xxonbang.github.io/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xxonbang.github.io/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xxonbang.github.io/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../xxonbang.github.io/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xxonbang.github.io/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/../xxonbang.github.io/_includes/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xxonbang.github.io/_includes/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../xxonbang.github.io/_includes/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xxonbang.github.io/_includes/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/../xxonbang.github.io/_includes/scripts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xxonbang.github.io/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/../xxonbang.github.io/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xxonbang.github.io/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xxonbang.github.io/img/bg-post.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../xxonbang.github.io/img/bg-post.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xxonbang.github.io/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../xxonbang.github.io/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/post.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +38,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -149,6 +77,8 @@
       <workItem from="1610606710523" duration="392000" />
       <workItem from="1610607268603" duration="597000" />
       <workItem from="1610608673703" duration="7977000" />
+      <workItem from="1611292981915" duration="1060000" />
+      <workItem from="1611294078197" duration="3875000" />
     </task>
     <servers />
   </component>
@@ -169,5 +99,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
 </project>
