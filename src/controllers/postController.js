@@ -14,13 +14,19 @@ export const searchAll = async (req, res) => {
 }
 
 export const postUpload = async (req, res) => {
+
+  const lastPost = await Post.find().sort({postNo: -1}).limit(1);
+  const generateNewMaxPostNo = JSON.parse(JSON.stringify(lastPost))[0].postNo + 1;
+
   const newPost = await Post.create({
-    boardCate: req.body.boardCate,
-    postNo: req.body.postNo,
-    title: req.body.title,
-    writer: req.body.writer,
-    contents: req.body.contents,
-    comment: req.body.comment
+    boardCate: req.params.category ? req.params.category : '',
+    postNo: generateNewMaxPostNo ? generateNewMaxPostNo : 1,
+    title: req.body.title ? req.body.title : '',
+    writer: req.body.writer ? req.body.writer : '',
+    contents: req.body.contents ? req.body.contents : '',
+    comment: req.body.comment ? req.body.comment : '',
+    regTime: Date.now(),
+    recommendCount: req.body.recommendCount ? req.body.recommendCount : 1,
   });
   newPost
     .save()
