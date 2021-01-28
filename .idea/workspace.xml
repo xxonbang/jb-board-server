@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0be0e00c-4e72-4421-9935-fceed634e059" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +78,7 @@
       <workItem from="1611292981915" duration="1060000" />
       <workItem from="1611294078197" duration="4684000" />
       <workItem from="1611633019007" duration="4725000" />
-      <workItem from="1611706042261" duration="10408000" />
+      <workItem from="1611706042261" duration="12736000" />
     </task>
     <servers />
   </component>
